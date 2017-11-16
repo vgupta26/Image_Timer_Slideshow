@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vasugupta.homework5.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/illinoistech"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-4dp"
+        android:paddingBottom="50dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/intro"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <SeekBar
+        android:id="@+id/skbar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.28"
+        android:max="10"
+        android:progress="0"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/slidesec"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.26"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/startb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="401dp" />
+</LinearLayout>
